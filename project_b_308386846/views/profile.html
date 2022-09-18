@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Bootstrap css-->
+
+    <link href="../bootstrap-5.2.1-dist/css/bootstrap.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/home-cards/style.css">
+
+
+    <!--My custom css-->
+    <link rel="stylesheet" type="text/css" href="../css/my_custom.css"> 
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../media/images/emoji.ico" alt="Logo" width="30"
+                    height="24"> Skate Mate</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="card.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Mates List
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">link to 1st profile name from DB</a></li>
+                          <li><a class="dropdown-item" href="#">link to 2st profile name from DB</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">etc</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Sign-Out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="slide-container container-fluid">
+        <div class="slide-content">
+            <div class="card-wrapper">
+                <div class="card">
+                <div class="image-content">
+                    <span class="overlay"></span>
+                    <div class="card-image">
+                        <img src="../media/images/home-page-cards/profile6.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+
+
+
+                <div class="card-content" id="user-name">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    </body>
+
+<!-- Swiper JS -->
+<script src="../js/home-page-cards/swiper-bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="../js/home-page-cards/script.js"></script>
+
+<script src="../js/home-page-cards/profile.js"></script>
+
+</html>

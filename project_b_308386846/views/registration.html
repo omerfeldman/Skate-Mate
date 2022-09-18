@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>RegistrationForm_v8 by Colorlib</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--Bootstrap css-->
+
+	<link href="../bootstrap-5.2.1-dist/css/bootstrap.css" rel="stylesheet">
+
+	<!-- MATERIAL DESIGN ICONIC FONT -->
+	<link rel="stylesheet" href="../media/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="../css/style.css">
+
+	<!-- MY CUSTOM CSS -->
+	<link rel="stylesheet" href="../css/my_custom.css">
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="image-holder">
+			<img src="../media/images/skater-slide7.jpg" alt="">
+		</div>
+		<div class="form-inner">
+
+			<form class="needs-validation" novalidate>
+				<div class="form-header" id="RegisterHead">
+					<h3>Registration</h3>
+				</div>
+
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Fullname" required>
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" data-validation="email" placeholder="Email" required>
+				</div>
+				<div class="form-group">
+					<input type="password" class="form-control" data-validation="length" data-validation-length="min8"
+						placeholder="Password" required>
+				</div>
+				<div class="form-group">
+					<input type="tel" class="form-control" id="phoneNumber" placeholder="phone"
+						pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+				</div>
+				<div class="form-check">
+					<label>Gender:</label>
+					<input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked"
+						required>
+					<label class="form-check-label" for="validationFormCheck2">Male</label>
+				</div>
+				<div class="form-check mb-3">
+					<input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked"
+						required>
+					<label class="form-check-label" for="validationFormCheck3">Female</label>
+					<div class="invalid-feedback">please choose your gender</div>
+				</div>
+
+				<div class="mb-3">
+					<select class="form-select" required aria-label="select example">
+						<option value="">Skating type</option>
+						<option value="1">Casual</option>
+						<option value="2">Agressive</option>
+					</select>
+					<div class="invalid-feedback">please select an option</div>
+				</div>
+
+				<div class="mb-3">
+					<select class="form-select" required aria-label="select example">
+						<option value="">Years of experience</option>
+						<option value="1">Just started</option>
+						<option value="2">Less then 6 month</option>
+						<option value="3">Less then a year</option>
+						<option value="4">More then a year</option>
+					</select>
+					<div class="invalid-feedback">please select an option</div>
+				</div>
+				<label for="customRange3" class="form-label">skating level (self rank)</label>
+				<input type="range" class="form-range" min="0" max="10" step="1" id="customRange3">
+
+				<div class="mb-3">
+					<label>Upload picture (optional): </label>
+					<input type="file" class="form-control" aria-label="file example">
+				</div>
+
+				<div class="mb-3">
+					<label for="validationTextarea" class="form-label">Tell us about yourself (optional):</label>
+					<textarea class="form-control" id="validationTextarea" placeholder="description"></textarea>
+				</div>
+
+				<!--submit button-->
+				<div class="form-group">
+					<button type="submit"> Register</button>
+					<a href="index.html">
+						<h5>
+							registerd? go back to sign-in</h5>
+					</a>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<!--js Files-->
+
+	<script src="../js/custome/custom-valid.js"></script>
+	<script src="..//js/jquery-3.3.1.min.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

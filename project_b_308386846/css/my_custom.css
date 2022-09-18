@@ -1,0 +1,42 @@
+/* my own custom css class overrides for bootstrap */
+
+
+:root {
+  --Mywhite: #fff;
+  --Myturquoise: rgb(46, 124, 121);
+   --Myblue: #6cbcdf;
+}
+/* ovverrides my sign-up page for use in refistration page */
+img {
+  max-width: 100%;
+  padding-top: 2.5%;
+}
+
+.image-holder {
+  background: url("../media/images/skater-slide7.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* ovverrides my cards page for use in profile page */
+/*.card{
+  border-radius: 25px;
+    background-color: #FFF;
+    max-width: 30%;
+    margin-left: 40%;
+}*/
+
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #2315f1;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #04e963;
+}
+

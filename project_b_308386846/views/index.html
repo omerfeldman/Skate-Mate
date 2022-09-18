@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>RegistrationForm_v8 by Colorlib</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--Bootstrap css-->
+
+	<link href="bootstrap-5.2.1-dist/css/bootstrap.css" rel="stylesheet">
+
+	<!-- MATERIAL DESIGN ICONIC FONT -->
+	<link rel="stylesheet" href="../media/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css"
+		rel="stylesheet">
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body onload="getUserGeoLoc()">
+	<div class="wrapper">
+		<div class="image-holder">
+			<img src="../media/images/skater-main.jpg" alt="">
+		</div>
+		<div class="form-inner">
+			<form action="">
+				<div class="form-header">
+					<h1> sign in </h1>
+					<img src="../media/images/sign-up.png" alt="" class="sign-up-icon">
+				</div>
+				<div class="form-group">
+
+					<label for="">Username:</label>
+					<input type="text" class="form-control1" data-validation="length alphanumeric"
+						data-validation-length="3-12">
+				</div>
+				<div class="form-group">
+					<label for="">Password:</label>
+					<input type="password" class="form-control1" data-validation="length" data-validation-length="min8">
+				</div>
+				<div>
+					<button>
+						<a href="card.html" class="btn btn" role="button">Submit</a>
+					</button>
+				</div>
+				<div class="socials">
+					<a href="registration.html">
+						<p>Register</p>
+					</a>
+					<p>Sign up with social platforms</p>
+					<a href="" class="socials-icon">
+						<i class="zmdi zmdi-facebook"></i>
+					</a>
+					<a href="" class="socials-icon">
+						<i class="zmdi zmdi-google"></i>
+					</a>
+				</div>
+			</form>
+		</div>
+
+	</div>
+	<script src="../js/custome/geoLocation-onload.js"></script>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/jquery.form-validator.min.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+
