@@ -1,0 +1,7 @@
+id,email,fullname,password,phone,gender,type,experience,level,text,latitude,longitude
+1,omef@post.bgu.ac.il,omer feldman,Aa123456,542079865,male,casual,less then 6 months,5,first one,31.2552487,34.7937677
+2,mich@gmail.com,michal karayiv,Aa1234576,542060954,female,Casual,Less then 6 month,5,sdgfsdg,31.2644324,34.8003071
+3,omerfeldman@gmail.com,omer feldman,Aa1234567,2896594986,male,Agressive,More then a year,3,i like this course,31.2644324,34.8003071
+4,gal@gmail.com,gal my man,Aa123456,523456789,male,Agressive,More then a year,6,we should study react and react native as well,31.2644324,34.8003051
+5,liel@gmail.com,liel,Aa123456,523456789,female,Casual,Less then 6 month,4,becuase nobody work with bootstrap anymore,31.2644324,34.8003071
+,,,,,,,,,,,
